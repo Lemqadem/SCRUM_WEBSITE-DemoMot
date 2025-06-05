@@ -86,6 +86,59 @@ color: white;
     height: 400px;
 }
 
+.elements h2{
+    text-align: center;
+}
+.roles-artefacts{
+
+position: static;
+padding: 5px;
+text-align: center;
+color: white;
+}
+.roles-artefacts a{
+display: inline-block;
+padding: 100px;
+background-color: #0CAADC;
+color: white;
+border-radius: 3px;
+border: 1px solid white;
+position: relative;
+margin-inline: 5px;
+text-decoration: none;
+}
+.roles-artefacts a:hover{
+background-color: cyan;
+color: black;
+}
+
+.ceremonies-valeurs{
+
+position: static;
+padding: 5px;
+text-align: center;
+color: white;
+}
+.ceremonies-valeurs a{
+display: inline-block;
+padding: 100px;
+background-color: #0CAADC;
+color: white;
+border-radius: 3px;
+border: 1px solid white;
+position: relative;
+margin-inline: 5px;
+text-decoration: none;
+}
+.ceremonies-valeurs a:hover{
+background-color: cyan;
+color: black;
+}
+
+.short-resume{
+    text-align: center;
+    color: white;
+}
 footer {
   margin-top: 10px;
   background-color: #11B5E4;
