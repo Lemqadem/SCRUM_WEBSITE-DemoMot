@@ -1,6 +1,7 @@
 body{
     background-color:#034748 ;
     margin: 0;
+    font-family:  'Trebuchet MS';
 }
 nav {
   background-color: #11B5E4;
@@ -88,6 +89,7 @@ color: white;
 
 .elements h2{
     text-align: center;
+    color: white;
 }
 .roles-artefacts{
 
@@ -138,7 +140,32 @@ color: black;
 .short-resume{
     text-align: center;
     color: white;
+    font-size: large;
 }
+.en-savoir-plus{
+
+position: static;
+padding: 5px;
+text-align: center;
+color: white;
+}
+.en-savoir-plus a{
+display: inline-block;
+padding: 15px;
+width: 1000px;
+background-color: #1481BA;
+color: white;
+border-radius: 30px;
+border: 1px solid white;
+position: relative;
+margin-inline: 5px;
+text-decoration: none;
+}
+.en-savoir-plus a:hover{
+background-color: #66F4CC;
+color: black;
+}
+
 footer {
   margin-top: 10px;
   background-color: #11B5E4;
