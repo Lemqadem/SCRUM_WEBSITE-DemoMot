@@ -1,3 +1,7 @@
+body{
+    background-color:#034748 ;
+    margin: 0;
+}
 nav {
   background-color: #11B5E4;
   display: flex;
@@ -28,8 +32,8 @@ nav a:hover {
   color: cyan;
 }
 .logo img {
-  width: 200px;
-  height: 100px;
+  width: 300px;
+  height: 80px;
 }
 .introduction {
   position: relative; 
@@ -66,6 +70,20 @@ nav a:hover {
   max-width: 800px;
   margin: 0 auto;
   text-shadow: 1px 1px 4px black;
+}
+.fonctionnement{
+    text-align: center;
+}
+.fonctionnement h2{
+color: white;
+}
+.fonctionnement p{
+    color: white;
+}
+.fonctionnement img{
+    border-radius: 30px;
+    width: 800px;
+    height: 400px;
 }
 
 footer {
