@@ -114,6 +114,55 @@ nav a:hover {
     font-size: 18px;
     padding: 0 10px;
 }
+.conclusion {
+    width: 1200px;
+    margin-top: 20px;
+    text-align: center;
+    background-color: #36F0F0;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+.conclusion h2 {
+    text-align: center;
+    color: #034748;
+}
+
+
+.conclusion .content {
+    display: flex;
+    flex-direction: row-reverse; /* Inverse l'ordre des éléments */
+    flex-wrap: wrap; /* Permet le retour à la ligne */
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+
+.conclusion .content img {
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+
+
+.conclusion .content p {
+    max-width: 600px;
+    color: black;
+    font-size: 18px;
+    padding: 0 10px;
+}
+.link-faq p{
+color: white;
+}
+.link-faq a{
+    color: aliceblue;
+    text-decoration: none;
+}
 .container{
     display: flex;
      flex-direction: column;
