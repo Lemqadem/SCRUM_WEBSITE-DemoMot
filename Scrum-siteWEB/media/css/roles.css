@@ -120,3 +120,41 @@ nav a:hover {
     align-items: center;
    
 }
+footer {
+  margin-top: 10px;
+  background-color: #11B5E4;
+  padding: 15px 0;
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-height: 100px;
+  flex-wrap: wrap;
+}
+
+
+footer a {
+    
+  color: #000000;
+  padding: 5px 12px;
+  text-decoration: none;
+  margin: 5px 0;
+}
+
+footer a:hover {
+  color: white;
+}
+
+
+footer img {
+  width: 40px;
+  height: 40px;
+}
+
+
+footer p {
+  color: white;
+  width: 100%;
+}
