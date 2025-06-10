@@ -72,19 +72,6 @@ nav a:hover {
   margin: 0 auto;
   text-shadow: 1px 1px 4px black;
 }
-footer {
-  margin-top: 10px;
-  background-color: #11B5E4;
-  padding: 15px 0;
-  text-align: center;
-  color: white;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  min-height: 100px;
-  flex-wrap: wrap;
-}
 
 .link-faq{
   display: flex;
@@ -99,6 +86,21 @@ color: white;
     text-decoration: none;
     
 }
+footer {
+  margin-top: 10px;
+  background-color: #11B5E4;
+  padding: 15px 0;
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-height: 100px;
+  flex-wrap: wrap;
+}
+
+
 footer a {
     
   color: #000000;
