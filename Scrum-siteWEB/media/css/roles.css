@@ -114,6 +114,43 @@ nav a:hover {
     font-size: 18px;
     padding: 0 10px;
 }
+.interactions {
+    width: 1200px;
+    margin-top: 20px;
+    text-align: center;
+    
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+.interactions h2 {
+    text-align: center;
+    color: white;
+}
+
+
+.interactions .content {
+    display: flex;
+    flex-direction: row-reverse; /* Inverse l'ordre des éléments */
+    flex-wrap: wrap; /* Permet le retour à la ligne */
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+
+
+
+
+
+.interactions .content p {
+    max-width: 600px;
+    color: white;
+    font-size: 18px;
+    padding: 0 10px;
+}
 .conclusion {
     width: 1200px;
     margin-top: 20px;
@@ -141,12 +178,7 @@ nav a:hover {
 }
 
 
-.conclusion .content img {
-    max-width: 400px;
-    height: auto;
-    border-radius: 10px;
-    transition: transform 0.3s ease;
-}
+
 
 
 
@@ -169,6 +201,7 @@ color: white;
     align-items: center;
    
 }
+
 footer {
   margin-top: 10px;
   background-color: #11B5E4;
@@ -201,6 +234,8 @@ footer img {
   width: 40px;
   height: 40px;
 }
+
+
 
 
 footer p {
