@@ -38,6 +38,11 @@ nav a:hover {
   height: 80px;
 }
 
+h1 {
+  text-align: center;
+  color: white;
+  margin: 20px 0;
+}
 
 
 footer {
