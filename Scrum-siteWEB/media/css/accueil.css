@@ -150,22 +150,13 @@ text-align: center;
 color: white;
 }
 .en-savoir-plus a{
-display: inline-block;
-padding: 15px;
-width: 1000px;
-background-color: #1481BA;
 color: white;
-border-radius: 30px;
-border: 1px solid white;
 position: relative;
-margin-inline: 5px;
 text-decoration: none;
 }
 .en-savoir-plus a:hover{
-background-color: #66F4CC;
-color: black;
+color: cyan;
 }
-
 footer {
   margin-top: 10px;
   background-color: #11B5E4;
@@ -179,8 +170,6 @@ footer {
   min-height: 100px;
   flex-wrap: wrap;
 }
-
-
 footer a {
     
   color: #000000;
