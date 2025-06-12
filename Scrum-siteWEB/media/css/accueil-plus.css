@@ -142,6 +142,19 @@ color: black;
     color: white;
     font-size: large;
 }
+.link-faq{
+  display: flex;
+     flex-direction: column;
+    align-items: center;
+}
+.link-faq p{
+color: white;
+}
+.link-faq a{
+    color: aliceblue;
+    text-decoration: none;
+    
+}
 
 footer {
   margin-top: 10px;
