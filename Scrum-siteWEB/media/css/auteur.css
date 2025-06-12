@@ -1,100 +1,107 @@
-
-body{
-    background-color:#034748 ;
+body {
+    background-color: #034748;
     margin: 0;
-    font-family:  'Trebuchet MS';
+    font-family: 'Trebuchet MS', sans-serif;
+    background-image: url(../images/etml-bat-flou.png);
+    background-attachment: fixed;
+    background-size: cover;
 }
+
 nav {
-  background-color: #11B5E4;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px;
+    background-color: #11B5E4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
 }
+
 nav ul {
-  display: flex;
-  list-style: none;
-  margin: 0;
-  padding: 0;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
+
 nav li {
-  padding: 10px 20px;
-  background-color: #1481BA;
-  color: white;
-  border-radius: 30px;
-  margin: 0 5px;
-  font-weight: bold;}
+    padding: 10px 20px;
+    background-color: #1481BA;
+    color: white;
+    border-radius: 30px;
+    margin: 0 5px;
+    font-weight: bold;
+}
+
 nav a {
-  color: white;
-  text-decoration: none;
-  width: 100%;
-  height: 100%;
+    color: white;
+    text-decoration: none;
 }
+
 nav a:hover {
-  color: cyan;
+    color: cyan;
 }
+
 .logo img {
-  width: 300px;
-  height: 80px;
+    width: 300px;
+    height: 80px;
 }
 
 h1 {
-  text-align: center;
-  color: white;
-  margin: 20px 0;
-}
-.content-container {
-  width: 90%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-  background-color: #11B5E4;
-  border-radius: 10px;
-}
-.content {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: 20px;
-}
-footer {
-  margin-top: 10px;
-  background-color: #11B5E4;
-  padding: 15px 0;
-  text-align: center;
-  color: white;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  min-height: 100px;
-  flex-wrap: wrap;
+    text-align: center;
+    color: white;
+    margin: 30px 0;
 }
 
+
+
+
+
+
+
+
+.center-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50%;
+    transform: translate(-50%, -50%);
+    color: #f0f8ff;
+    text-align: center;
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+
+footer {
+    margin-top: 50px;
+    background-color: #11B5E4;
+    padding: 15px 0;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+    flex-wrap: wrap;
+}
 
 footer a {
-    
-  color: #000000;
-  padding: 5px 12px;
-  text-decoration: none;
-  margin: 5px 0;
+    color: #000000;
+    padding: 5px 12px;
+    text-decoration: none;
+    margin: 5px 0;
 }
 
 footer a:hover {
-  color: white;
+    color: white;
 }
-
 
 footer img {
-  width: 40px;
-  height: 40px;
+    width: 40px;
+    height: 40px;
 }
 
-
-
-
 footer p {
-  color: white;
-  width: 100%;
+    color: white;
+    width: 100%;
 }
