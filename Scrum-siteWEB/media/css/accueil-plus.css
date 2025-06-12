@@ -1,0 +1,181 @@
+body{
+    background-color:#034748 ;
+    margin: 0;
+    font-family:  'Trebuchet MS';
+}
+nav {
+  background-color: #11B5E4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  padding: 10px 20px;
+  background-color: #1481BA;
+  color: white;
+  border-radius: 30px;
+  margin: 0 5px;
+  font-weight: bold;}
+nav a {
+  color: white;
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+}
+nav a:hover {
+  color: cyan;
+}
+.logo img {
+  width: 300px;
+  height: 80px;
+}
+.introduction {
+  position: relative; 
+  width: 100%;
+  height: 100vh; 
+  overflow: hidden;
+}
+
+.introduction img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.textes-intro {
+  position: absolute;
+  top: 50%; 
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  color: white;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.textes-intro h1 {
+  font-size: 4rem;
+  text-shadow: 1px 1px 4px black;
+  margin-bottom: 20px;
+}
+
+.textes-intro p {
+  font-size: 1.2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  text-shadow: 1px 1px 4px black;
+}
+.fonctionnement{
+    text-align: center;
+}
+.fonctionnement h2{
+color: white;
+}
+.fonctionnement p{
+    color: white;
+}
+.fonctionnement img{
+    border-radius: 30px;
+    width: 800px;
+    height: 400px;
+}
+
+.elements h2{
+    text-align: center;
+    color: white;
+}
+.roles-artefacts{
+
+position: static;
+padding: 5px;
+text-align: center;
+color: white;
+}
+.roles-artefacts a{
+display: inline-block;
+padding: 100px;
+background-color: #0CAADC;
+color: white;
+border-radius: 3px;
+border: 1px solid white;
+position: relative;
+margin-inline: 5px;
+text-decoration: none;
+}
+.roles-artefacts a:hover{
+background-color: cyan;
+color: black;
+}
+
+.ceremonies-valeurs{
+
+position: static;
+padding: 5px;
+text-align: center;
+color: white;
+}
+.ceremonies-valeurs a{
+display: inline-block;
+padding: 100px;
+background-color: #0CAADC;
+color: white;
+border-radius: 3px;
+border: 1px solid white;
+position: relative;
+margin-inline: 5px;
+text-decoration: none;
+}
+.ceremonies-valeurs a:hover{
+background-color: cyan;
+color: black;
+}
+
+.short-resume{
+    text-align: center;
+    color: white;
+    font-size: large;
+}
+
+footer {
+  margin-top: 10px;
+  background-color: #11B5E4;
+  padding: 15px 0;
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-height: 100px;
+  flex-wrap: wrap;
+}
+footer a {
+    
+  color: #000000;
+  padding: 5px 12px;
+  text-decoration: none;
+  margin: 5px 0;
+}
+
+footer a:hover {
+  color: white;
+}
+
+
+footer img {
+  width: 40px;
+  height: 40px;
+}
+
+
+footer p {
+  color: white;
+  width: 100%;
+}
