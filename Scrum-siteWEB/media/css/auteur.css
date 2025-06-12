@@ -43,8 +43,21 @@ h1 {
   color: white;
   margin: 20px 0;
 }
-
-
+.content-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #11B5E4;
+  border-radius: 10px;
+}
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+}
 footer {
   margin-top: 10px;
   background-color: #11B5E4;
