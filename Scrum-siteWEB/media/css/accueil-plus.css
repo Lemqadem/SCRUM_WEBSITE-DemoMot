@@ -322,9 +322,9 @@ color: white;
             font-style: italic;
         }
 
-        .citation-card p:last-child {
-            font-weight: bold;
-            text-align: right;
+        .citation-card a {
+            text-decoration: none;
+            color: aliceblue;
         }
 footer {
   margin-top: 10px;
