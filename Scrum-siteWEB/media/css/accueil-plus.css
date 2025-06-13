@@ -142,11 +142,61 @@ color: black;
     color: white;
     font-size: large;
 }
+.histoire h2{
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+.timeline {
+  position: relative;
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.line {
+  width: 4px;
+  background-color: #777070;
+  margin: 60px auto;
+  height: 150px;
+}
+
+.checkpoint {
+  position: relative;
+  margin: 60px 0;
+}
+
+.content {
+  width: 60%;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 20px black;
+  position: relative;
+}
+
+.content.left {
+  margin-right: auto;
+  margin-left: 0;
+}
+
+.content.right {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.content img {
+  margin-top: 10px;
+  max-width: 100%;
+  border-radius: 8px;
+}
+
 .link-faq{
   display: flex;
      flex-direction: column;
     align-items: center;
 }
+
 .link-faq p{
 color: white;
 }
