@@ -42,13 +42,11 @@ nav a:hover {
   height: 100vh; 
   overflow: hidden;
 }
-
 .introduction img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-
 .textes-intro {
   position: absolute;
   top: 50%; 
@@ -59,13 +57,11 @@ nav a:hover {
   text-align: center;
   padding: 0 20px;
 }
-
 .textes-intro h1 {
   font-size: 4rem;
   text-shadow: 1px 1px 4px black;
   margin-bottom: 20px;
 }
-
 .textes-intro p {
   font-size: 1.2rem;
   max-width: 800px;
@@ -80,14 +76,10 @@ nav a:hover {
     border-radius: 10px;
     padding: 10px;
 }
-
-
 .section-content h2 {
     text-align: center;
     color: white;
 }
-
-
 .section-content .content {
     display: flex;
     flex-direction: row-reverse; /* Inverse l'ordre des éléments */
@@ -97,17 +89,12 @@ nav a:hover {
     padding: 20px;
     gap: 20px;
 }
-
-
 .section-content .content img {
     max-width: 400px;
     height: auto;
     border-radius: 10px;
     transition: transform 0.3s ease;
 }
-
-
-
 .section-content .content p {
     max-width: 600px;
     color: white;
@@ -117,19 +104,14 @@ nav a:hover {
 .interactions {
     width: 1200px;
     margin-top: 20px;
-    text-align: center;
-    
+    text-align: center;   
     border-radius: 10px;
     padding: 10px;
 }
-
-
 .interactions h2 {
     text-align: center;
     color: white;
 }
-
-
 .interactions .content {
     display: flex;
     flex-direction: row-reverse; /* Inverse l'ordre des éléments */
@@ -139,12 +121,6 @@ nav a:hover {
     padding: 20px;
     gap: 20px;
 }
-
-
-
-
-
-
 .interactions .content p {
     max-width: 600px;
     color: white;
@@ -159,14 +135,10 @@ nav a:hover {
     border-radius: 10px;
     padding: 10px;
 }
-
-
 .conclusion h2 {
     text-align: center;
     color: #034748;
 }
-
-
 .conclusion .content {
     display: flex;
     flex-direction: row-reverse; /* Inverse l'ordre des éléments */
@@ -176,12 +148,6 @@ nav a:hover {
     padding: 20px;
     gap: 20px;
 }
-
-
-
-
-
-
 .conclusion .content p {
     max-width: 600px;
     color: black;
@@ -199,9 +165,7 @@ color: white;
     display: flex;
      flex-direction: column;
     align-items: center;
-   
 }
-
 footer {
   margin-top: 10px;
   background-color: #11B5E4;
@@ -215,8 +179,6 @@ footer {
   min-height: 100px;
   flex-wrap: wrap;
 }
-
-
 footer a {
     
   color: #000000;
@@ -224,20 +186,13 @@ footer a {
   text-decoration: none;
   margin: 5px 0;
 }
-
 footer a:hover {
   color: white;
 }
-
-
 footer img {
   width: 40px;
   height: 40px;
 }
-
-
-
-
 footer p {
   color: white;
   width: 100%;
