@@ -88,11 +88,13 @@ nav a:hover {
 
 
 .section-content {
-  width: 1200px;
-  margin-top: 20px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 10px;
   background-color: #36F0F0;
   border-radius: 10px;
-  padding: 10px;
+  box-sizing: border-box;
 }
 
 /* Titres des sections centrés, texte blanc */
@@ -205,4 +207,40 @@ footer img {
 footer p {
   color: white;
   width: 100%;
+}
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav li {
+    margin: 5px 0;
+    width: 80%;
+    text-align: center;
+  }
+
+  .textes-intro h1 {
+    font-size: 3rem;
+  }
+
+  .textes-intro p {
+    font-size: 1rem;
+    max-width: 90%;
+  }
+  .section-content {
+    width: 100%;
+    padding: 15px;
+    margin: 15px auto;
+  }
+
+  .section-content .content {
+    flex-direction: column;
+    padding: 15px;
+  }
+
+  .section-content .content p {
+    font-size: 16px;
+    max-width: 100%;
+  }
 }
