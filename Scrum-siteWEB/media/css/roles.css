@@ -69,12 +69,14 @@ nav a:hover {
   text-shadow: 1px 1px 4px black;
 }
 .section-content {
-    width: 1200px;
-    margin-top: 20px;
-    text-align: center;
-    background-color: #0CAADC;
-    border-radius: 10px;
-    padding: 10px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: #0CAADC; 
+  border-radius: 10px;
 }
 .section-content h2 {
     text-align: center;
@@ -102,11 +104,13 @@ nav a:hover {
     padding: 0 10px;
 }
 .interactions {
-    width: 1200px;
-    margin-top: 20px;
-    text-align: center;   
-    border-radius: 10px;
-    padding: 10px;
+    width: 100%;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+  border-radius: 10px;
 }
 .interactions h2 {
     text-align: center;
@@ -128,12 +132,14 @@ nav a:hover {
     padding: 0 10px;
 }
 .conclusion {
-    width: 1200px;
-    margin-top: 20px;
-    text-align: center;
-    background-color: #36F0F0;
-    border-radius: 10px;
-    padding: 10px;
+   width: 100%;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: #36F0F0; /* couleur d’origine */
+  border-radius: 10px;
 }
 .conclusion h2 {
     text-align: center;
@@ -196,4 +202,62 @@ footer img {
 footer p {
   color: white;
   width: 100%;
+}
+
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav li {
+    margin: 5px 0;
+    width: 80%;
+    text-align: center;
+  }
+
+  .textes-intro h1 {
+    font-size: 3rem;
+  }
+
+  .textes-intro p {
+    font-size: 1rem;
+    max-width: 90%;
+  }
+  .section-content,
+  .interactions,
+  .conclusion {
+    width: 95%;
+    margin: 20px auto;
+    padding: 15px;
+  }
+
+  /* Contenus image + texte en colonne */
+  .section-content .content,
+  .interactions .content,
+  .conclusion .content {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    gap: 15px;
+  }
+
+  /* Images prennent toute la largeur max possible */
+  .section-content .content img,
+  .interactions .content img,
+  .conclusion .content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  /* Texte plus lisible, prend toute la largeur possible */
+  .section-content .content p,
+  .interactions .content p,
+  .conclusion .content p {
+    max-width: 100%;
+    font-size: 16px;
+    padding: 0 10px;
+    text-align: center;
+  }
 }
