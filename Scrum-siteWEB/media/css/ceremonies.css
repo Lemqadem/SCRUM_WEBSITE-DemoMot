@@ -72,6 +72,49 @@ nav a:hover {
   margin: 0 auto;
   text-shadow: 1px 1px 4px black;
 }
+.ceremonies {
+  max-width: 720px;
+  margin: 40px auto 60px auto;
+  padding: 0 20px;
+}
+
+.ceremony {
+  background-color: #11b5e4;
+  padding: 25px 30px;
+  margin-bottom: 35px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  transition: background-color 0.3s ease;
+}
+
+.ceremony:hover {
+  background-color: #1481ba;
+}
+
+.ceremony h2 {
+  margin-top: 0;
+  font-size: 2rem;
+  color: #e0f7ff;
+  margin-bottom: 15px;
+}
+
+.ceremony p {
+  font-size: 1.1rem;
+  color: #f0f8ff;
+  margin-bottom: 15px;
+}
+
+.ceremony ul,
+.ceremony ol {
+  margin-left: 20px;
+  margin-bottom: 15px;
+  color: #d0faff;
+}
+
+.ceremony ul li,
+.ceremony ol li {
+  margin-bottom: 8px;
+}
 .link-faq{
   display: flex;
      flex-direction: column;
