@@ -87,54 +87,47 @@ color: white;
     height: 400px;
 }
 
-.elements h2{
+.elements {
+    padding: 60px 20px;
     text-align: center;
+}
+
+.elements h2 {
     color: white;
-}
-.roles-artefacts{
-
-position: static;
-padding: 5px;
-text-align: center;
-color: white;
-}
-.roles-artefacts a{
-display: inline-block;
-padding: 100px;
-background-color: #0CAADC;
-color: white;
-border-radius: 3px;
-border: 1px solid white;
-position: relative;
-margin-inline: 5px;
-text-decoration: none;
-}
-.roles-artefacts a:hover{
-background-color: cyan;
-color: black;
+    margin-bottom: 40px;
 }
 
-.ceremonies-valeurs{
+.elements-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
 
-position: static;
-padding: 5px;
-text-align: center;
-color: white;
+.element-card {
+    background-color: #1481BA;
+    color: white;
+    border-radius: 20px;
+    padding: 30px 20px;
+    text-decoration: none;
+    border: 2px solid #11B5E4;
 }
-.ceremonies-valeurs a{
-display: inline-block;
-padding: 100px;
-background-color: #0CAADC;
-color: white;
-border-radius: 3px;
-border: 1px solid white;
-position: relative;
-margin-inline: 5px;
-text-decoration: none;
+
+.element-card:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    background-color: #11B5E4;
 }
-.ceremonies-valeurs a:hover{
-background-color: cyan;
-color: black;
+
+.element-card h3 {
+    margin-top: 0;
+    font-size: 1.8rem;
+    color: cyan;
+}
+
+.element-card p {
+    margin-top: 10px;
+    font-size: 1rem;
 }
 
 .short-resume{
