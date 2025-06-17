@@ -81,10 +81,11 @@ color: white;
 .fonctionnement p{
     color: white;
 }
-.fonctionnement img{
+.fonctionnement img {
     border-radius: 30px;
-    width: 800px;
-    height: 400px;
+    width: 100%;
+    height: auto;
+    max-width: 800px; /* Cela garantit que l'image ne dépasse pas 800px de large */
 }
 
 .elements {
@@ -159,7 +160,8 @@ color: white;
   margin: 60px 0;
 }
 .section-content {
-    width: 1200px;
+   width: 90%;
+    max-width: 1200px;
     margin-top: 20px;
     text-align: center;
     background-color: cyan;
@@ -176,12 +178,12 @@ color: white;
 
 .section-content .content-2 {
     display: flex;
-    flex-direction: row-reverse; /* Inverse l'ordre des éléments */
-    flex-wrap: wrap; /* Permet le retour à la ligne */
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    gap: 20px;
+flex-direction: row-reverse;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+gap: 20px;
+
 }
 
 
@@ -354,4 +356,39 @@ footer img {
 footer p {
   color: white;
   width: 100%;
+}
+
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav li {
+    margin: 5px 0;
+    width: 80%;
+    text-align: center;
+  }
+
+  .textes-intro h1 {
+    font-size: 3rem;
+  }
+
+  .textes-intro p {
+    font-size: 1rem;
+    max-width: 90%;
+  }
+  .section-content .content-2 {
+    flex-direction: column;
+    align-items: center; /* centre le contenu */
+  }
+
+  .section-content .content-2 img {
+    max-width: 90%;
+    height: auto;
+  }
+
+  .section-content .content-2 ul {
+    padding: 0 15px; /* un peu de marge pour la liste */
+  }
 }
