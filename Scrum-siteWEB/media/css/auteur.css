@@ -63,10 +63,11 @@ h1 {
     max-width: 900px;
     margin: 40px auto;
     padding: 30px;
-    background-color: rgba(0, 0, 0, 0.7); /* fond semi-transparent */
+    background-color: rgba(0, 0, 0, 0.7);
     border-radius: 12px;
     color: #f0f8ff;
     text-align: left;
+    box-sizing: border-box; /* Ajout important ! */
 }
 
 .text-content {
@@ -117,3 +118,32 @@ footer p {
     width: 100%;
 }
 
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav li {
+    margin: 5px 0;
+    width: 80%;
+    text-align: center;
+  }
+ .content-container {
+    width: 95%;
+    max-width: none;
+    padding: 20px;
+    margin: 20px auto;
+  }
+
+  .content-container h2 {
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  .text-content {
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+}
