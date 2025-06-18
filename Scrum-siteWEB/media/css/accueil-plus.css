@@ -358,7 +358,7 @@ footer p {
   width: 100%;
 }
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 911px) and (min-width: 470px) {
   nav ul {
     flex-direction: column;
     align-items: center;
@@ -390,5 +390,28 @@ footer p {
 
   .section-content .content-2 ul {
     padding: 0 15px; /* un peu de marge pour la liste */
+  }
+}
+@media only screen and (max-width: 469px) {
+
+    nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul {
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+  }
+
+  nav li {
+    width: 90%;
+    margin: 2px 0;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+  .section-content .content-2 img {
+    width: 80%;
   }
 }

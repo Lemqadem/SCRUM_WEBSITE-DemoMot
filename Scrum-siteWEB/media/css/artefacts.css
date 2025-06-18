@@ -185,7 +185,7 @@ footer p {
   color: white;
   width: 100%;
 }
-@media (max-width: 768px) {
+@media only screen and (max-width: 911px) and (min-width: 470px) {
   nav ul {
     flex-direction: column;
     align-items: center;
@@ -216,5 +216,48 @@ footer p {
   .notions li {
     width: 90%;
     max-width: 800px; 
+  }
+}
+@media only screen and (max-width: 469px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul {
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+  }
+
+  nav li {
+    width: 90%;
+    margin: 2px auto;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+
+  .logo img {
+    width: 200px;
+    height: auto;
+  }
+
+  .textes-intro h1 {
+    font-size: 2rem;
+  }
+
+  .textes-intro p {
+    font-size: 0.9rem;
+  }
+
+  .artefacts ul,
+  .notions ul {
+    flex-direction: column;
+  }
+
+  .artefacts li,
+  .notions li {
+    width: 95%;
+    margin-bottom: 10px;
   }
 }
