@@ -240,13 +240,6 @@ footer p {
     font-size: 0.9rem;
   }
 
-  .logo img {
-    width: 200px;
-    height: auto;
-  }
-
- 
-
   .artefacts ul,
   .notions ul {
     flex-direction: column;
