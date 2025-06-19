@@ -245,13 +245,7 @@ footer p {
     height: auto;
   }
 
-  .textes-intro h1 {
-    font-size: 2rem;
-  }
-
-  .textes-intro p {
-    font-size: 0.9rem;
-  }
+ 
 
   .artefacts ul,
   .notions ul {
