@@ -167,6 +167,9 @@ color: white;
     color: aliceblue;
     text-decoration: none;
 }
+.link-faq a:hover{
+  color: #36F0F0;
+}
 .container{
     display: flex;
      flex-direction: column;

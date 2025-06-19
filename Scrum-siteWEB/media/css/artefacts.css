@@ -149,6 +149,9 @@ color: white;
     text-decoration: none;
     
 }
+.link-faq a:hover{
+  color: #36F0F0;
+}
 footer {
   margin-top: 10px;
   background-color: #11B5E4;

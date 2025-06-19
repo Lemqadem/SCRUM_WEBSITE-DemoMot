@@ -77,6 +77,9 @@ nav a:hover {
   margin: 40px auto 60px auto;
   padding: 0 20px;
 }
+.ceremonies h2 {
+  color: white;
+}
 
 .ceremony {
   background-color: #11b5e4;
@@ -128,6 +131,9 @@ color: white;
     color: aliceblue;
     text-decoration: none;
     
+}
+.link-faq a:hover{
+  color: #36F0F0;
 }
 footer {
   margin-top: 10px;
