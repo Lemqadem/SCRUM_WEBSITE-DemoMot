@@ -4,7 +4,7 @@
 **Scrumzy** est un site web éducatif entièrement dédié à la méthodologie de travail **Scrum**, développé par **Ervan Lemqadem** dans le cadre du projet *DémoMot* à l'**ETML** (École Technique des Métiers de Lausanne).
 
 Ce projet a pour but de présenter les principes fondamentaux de Scrum de manière claire, interactive et visuelle, tout en mettant en pratique les compétences acquises en HTML/CSS.
-
+Vous retrouverez la documentation relative à ce projet en cliquant ici (seul les membres EduVaud y ont accès): https://eduvaud-my.sharepoint.com/:f:/g/personal/po53roe_eduvaud_ch/En60n6VZgixNhE6W-yNkslQBy_0ruiQgUzOSzF98H_VWwA     
 ---
 
 ## 🚀 Objectifs du Projet
